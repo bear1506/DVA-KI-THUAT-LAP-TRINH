@@ -1,11 +1,11 @@
-## File: mymath.py ##
-def square(n):
-    return n*n
-def cube(n):
-     return n*n*n
-def average(values):
-     nvals = len(values)
-     sum = 0.0
-     for v in values:
-         sum += v
-     return float(sum)/nvals
+print("Sv:Đặng Việt Anh")
+print("MSSV:235752021610002")
+##############################
+class Circle(object): 
+     def __init__(self, r): 
+       self.radius = r 
+############################### 
+     def area(self): 
+       return self.radius**2*3.14 
+aCircle = Circle(2) 
+print (aCircle.area())
