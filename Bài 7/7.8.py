@@ -11,8 +11,7 @@ def write_list_to_file(file_name, data_list):
         print(f"Có lỗi xảy ra khi ghi vào tệp: {e}")
 def main():
     file_name = input("Nhập tên tệp:")
-    data_list = ['Apple', 'Banana', 'Cherry', 'Date', 'Elderberry']
+    data_list = ['Đặng Việt Anh', 'KTDK-TDH', 'IG:bear15.6_']
     write_list_to_file(file_name, data_list)
 if __name__ == "__main__":
     main()
-
