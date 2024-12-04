@@ -5,7 +5,7 @@ def tu_dai_nhat(s):
     tuDaiNhat=""
     dsCacTu=s.split()
     for tu in dsCacTu:
-        if(len(tu)>len(tuDaiNhat))or (len(tuDaiNhat)and tu<tuDaiNhat):
+        if(len(tu)>len(tuDaiNhat)):
             tuDaiNhat = tu
     return tuDaiNhat                              
 s=input() 
